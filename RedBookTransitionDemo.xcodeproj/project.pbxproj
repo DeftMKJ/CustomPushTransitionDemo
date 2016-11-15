@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1D6388C1DDAD86700676C41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D6388B1DDAD86700676C41 /* main.m */; };
+		B1D6388F1DDAD86700676C41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D6388E1DDAD86700676C41 /* AppDelegate.m */; };
+		B1D638921DDAD86700676C41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D638911DDAD86700676C41 /* ViewController.m */; };
+		B1D638951DDAD86700676C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D638931DDAD86700676C41 /* Main.storyboard */; };
+		B1D638971DDAD86700676C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D638961DDAD86700676C41 /* Assets.xcassets */; };
+		B1D6389A1DDAD86700676C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D638981DDAD86700676C41 /* LaunchScreen.storyboard */; };
+		B1D638A51DDAD86700676C41 /* RedBookTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D638A41DDAD86700676C41 /* RedBookTransitionDemoTests.m */; };
+		B1D638B01DDAD86700676C41 /* RedBookTransitionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D638AF1DDAD86700676C41 /* RedBookTransitionDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1D638A11DDAD86700676C41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D6387F1DDAD86700676C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D638861DDAD86700676C41;
+			remoteInfo = RedBookTransitionDemo;
+		};
+		B1D638AC1DDAD86700676C41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D6387F1DDAD86700676C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D638861DDAD86700676C41;
+			remoteInfo = RedBookTransitionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1D638871DDAD86700676C41 /* RedBookTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBookTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D6388B1DDAD86700676C41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1D6388D1DDAD86700676C41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1D6388E1DDAD86700676C41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1D638901DDAD86700676C41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1D638911DDAD86700676C41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1D638941DDAD86700676C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1D638961DDAD86700676C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1D638991DDAD86700676C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1D6389B1DDAD86700676C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D638A01DDAD86700676C41 /* RedBookTransitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBookTransitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D638A41DDAD86700676C41 /* RedBookTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedBookTransitionDemoTests.m; sourceTree = "<group>"; };
+		B1D638A61DDAD86700676C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D638AB1DDAD86700676C41 /* RedBookTransitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBookTransitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D638AF1DDAD86700676C41 /* RedBookTransitionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedBookTransitionDemoUITests.m; sourceTree = "<group>"; };
+		B1D638B11DDAD86700676C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1D638841DDAD86700676C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D6389D1DDAD86700676C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D638A81DDAD86700676C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1D6387E1DDAD86700676C41 = {
+			isa = PBXGroup;
+			children = (
+				B1D638891DDAD86700676C41 /* RedBookTransitionDemo */,
+				B1D638A31DDAD86700676C41 /* RedBookTransitionDemoTests */,
+				B1D638AE1DDAD86700676C41 /* RedBookTransitionDemoUITests */,
+				B1D638881DDAD86700676C41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1D638881DDAD86700676C41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D638871DDAD86700676C41 /* RedBookTransitionDemo.app */,
+				B1D638A01DDAD86700676C41 /* RedBookTransitionDemoTests.xctest */,
+				B1D638AB1DDAD86700676C41 /* RedBookTransitionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1D638891DDAD86700676C41 /* RedBookTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B1D6388D1DDAD86700676C41 /* AppDelegate.h */,
+				B1D6388E1DDAD86700676C41 /* AppDelegate.m */,
+				B1D638901DDAD86700676C41 /* ViewController.h */,
+				B1D638911DDAD86700676C41 /* ViewController.m */,
+				B1D638931DDAD86700676C41 /* Main.storyboard */,
+				B1D638961DDAD86700676C41 /* Assets.xcassets */,
+				B1D638981DDAD86700676C41 /* LaunchScreen.storyboard */,
+				B1D6389B1DDAD86700676C41 /* Info.plist */,
+				B1D6388A1DDAD86700676C41 /* Supporting Files */,
+			);
+			path = RedBookTransitionDemo;
+			sourceTree = "<group>";
+		};
+		B1D6388A1DDAD86700676C41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1D6388B1DDAD86700676C41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1D638A31DDAD86700676C41 /* RedBookTransitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D638A41DDAD86700676C41 /* RedBookTransitionDemoTests.m */,
+				B1D638A61DDAD86700676C41 /* Info.plist */,
+			);
+			path = RedBookTransitionDemoTests;
+			sourceTree = "<group>";
+		};
+		B1D638AE1DDAD86700676C41 /* RedBookTransitionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D638AF1DDAD86700676C41 /* RedBookTransitionDemoUITests.m */,
+				B1D638B11DDAD86700676C41 /* Info.plist */,
+			);
+			path = RedBookTransitionDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1D638861DDAD86700676C41 /* RedBookTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D638B41DDAD86700676C41 /* Build configuration list for PBXNativeTarget "RedBookTransitionDemo" */;
+			buildPhases = (
+				B1D638831DDAD86700676C41 /* Sources */,
+				B1D638841DDAD86700676C41 /* Frameworks */,
+				B1D638851DDAD86700676C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBookTransitionDemo;
+			productName = RedBookTransitionDemo;
+			productReference = B1D638871DDAD86700676C41 /* RedBookTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1D6389F1DDAD86700676C41 /* RedBookTransitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D638B71DDAD86700676C41 /* Build configuration list for PBXNativeTarget "RedBookTransitionDemoTests" */;
+			buildPhases = (
+				B1D6389C1DDAD86700676C41 /* Sources */,
+				B1D6389D1DDAD86700676C41 /* Frameworks */,
+				B1D6389E1DDAD86700676C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D638A21DDAD86700676C41 /* PBXTargetDependency */,
+			);
+			name = RedBookTransitionDemoTests;
+			productName = RedBookTransitionDemoTests;
+			productReference = B1D638A01DDAD86700676C41 /* RedBookTransitionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1D638AA1DDAD86700676C41 /* RedBookTransitionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D638BA1DDAD86700676C41 /* Build configuration list for PBXNativeTarget "RedBookTransitionDemoUITests" */;
+			buildPhases = (
+				B1D638A71DDAD86700676C41 /* Sources */,
+				B1D638A81DDAD86700676C41 /* Frameworks */,
+				B1D638A91DDAD86700676C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D638AD1DDAD86700676C41 /* PBXTargetDependency */,
+			);
+			name = RedBookTransitionDemoUITests;
+			productName = RedBookTransitionDemoUITests;
+			productReference = B1D638AB1DDAD86700676C41 /* RedBookTransitionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D6387F1DDAD86700676C41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = MKJING;
+				TargetAttributes = {
+					B1D638861DDAD86700676C41 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					B1D6389F1DDAD86700676C41 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1D638861DDAD86700676C41;
+					};
+					B1D638AA1DDAD86700676C41 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1D638861DDAD86700676C41;
+					};
+				};
+			};
+			buildConfigurationList = B1D638821DDAD86700676C41 /* Build configuration list for PBXProject "RedBookTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1D6387E1DDAD86700676C41;
+			productRefGroup = B1D638881DDAD86700676C41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1D638861DDAD86700676C41 /* RedBookTransitionDemo */,
+				B1D6389F1DDAD86700676C41 /* RedBookTransitionDemoTests */,
+				B1D638AA1DDAD86700676C41 /* RedBookTransitionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1D638851DDAD86700676C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D6389A1DDAD86700676C41 /* LaunchScreen.storyboard in Resources */,
+				B1D638971DDAD86700676C41 /* Assets.xcassets in Resources */,
+				B1D638951DDAD86700676C41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D6389E1DDAD86700676C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D638A91DDAD86700676C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1D638831DDAD86700676C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D638921DDAD86700676C41 /* ViewController.m in Sources */,
+				B1D6388F1DDAD86700676C41 /* AppDelegate.m in Sources */,
+				B1D6388C1DDAD86700676C41 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D6389C1DDAD86700676C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D638A51DDAD86700676C41 /* RedBookTransitionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D638A71DDAD86700676C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D638B01DDAD86700676C41 /* RedBookTransitionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1D638A21DDAD86700676C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D638861DDAD86700676C41 /* RedBookTransitionDemo */;
+			targetProxy = B1D638A11DDAD86700676C41 /* PBXContainerItemProxy */;
+		};
+		B1D638AD1DDAD86700676C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D638861DDAD86700676C41 /* RedBookTransitionDemo */;
+			targetProxy = B1D638AC1DDAD86700676C41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1D638931DDAD86700676C41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D638941DDAD86700676C41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1D638981DDAD86700676C41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D638991DDAD86700676C41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1D638B21DDAD86700676C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1D638B31DDAD86700676C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1D638B51DDAD86700676C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedBookTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.RedBookTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1D638B61DDAD86700676C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedBookTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.RedBookTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1D638B81DDAD86700676C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedBookTransitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.RedBookTransitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBookTransitionDemo.app/RedBookTransitionDemo";
+			};
+			name = Debug;
+		};
+		B1D638B91DDAD86700676C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedBookTransitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.RedBookTransitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBookTransitionDemo.app/RedBookTransitionDemo";
+			};
+			name = Release;
+		};
+		B1D638BB1DDAD86700676C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedBookTransitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.RedBookTransitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedBookTransitionDemo;
+			};
+			name = Debug;
+		};
+		B1D638BC1DDAD86700676C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedBookTransitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.RedBookTransitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedBookTransitionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1D638821DDAD86700676C41 /* Build configuration list for PBXProject "RedBookTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D638B21DDAD86700676C41 /* Debug */,
+				B1D638B31DDAD86700676C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D638B41DDAD86700676C41 /* Build configuration list for PBXNativeTarget "RedBookTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D638B51DDAD86700676C41 /* Debug */,
+				B1D638B61DDAD86700676C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B1D638B71DDAD86700676C41 /* Build configuration list for PBXNativeTarget "RedBookTransitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D638B81DDAD86700676C41 /* Debug */,
+				B1D638B91DDAD86700676C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B1D638BA1DDAD86700676C41 /* Build configuration list for PBXNativeTarget "RedBookTransitionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D638BB1DDAD86700676C41 /* Debug */,
+				B1D638BC1DDAD86700676C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1D6387F1DDAD86700676C41 /* Project object */;
+}
